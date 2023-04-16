@@ -1,0 +1,8 @@
+baseURL = 'https://student.cloud.htl-leonding.ac.at/d.altenhofer'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "ga-hugo-theme"
+[params]
+  movies = "movies"
+  [data]
+enableRemoteContent = true

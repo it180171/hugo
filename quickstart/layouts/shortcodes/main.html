@@ -1,0 +1,8 @@
+{{ define "main" }}
+  <h1>My Favorite Movies</h1>
+  <ul>
+    {{ range $movie := .Site.Data.movies }}
+      <li>{{ $movie.title }} ({{ $movie.year }})</li>
+    {{ end }}
+  </ul>
+{{ end }}

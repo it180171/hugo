@@ -1,0 +1,8 @@
+{{ define "main" }}
+  <h1>My Favorite {{ .Kind | pluralize }}</h1>
+  <ul>
+    {{ range .Site.Data.movies.movies }}
+    <li>{{ .title }} ({{ .year }})</li>
+  {{ end }}
+  </ul>
+{{ end }}
